@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0f1115;
+  --panel: #1a1d23;
+  --line: #2a2f3a;
+  --text: #c8cdd6;
+  --accent: #7d97b8;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  overflow: hidden;
+  cursor: none; /* nozzle replaces the cursor */
+}
+
+* {
+  box-sizing: border-box;
+}
